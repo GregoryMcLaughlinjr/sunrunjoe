@@ -1,0 +1,106 @@
+html{
+  background-color: white;
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+body{
+  margin: 0px;
+}
+
+#welcomesection{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-image: url(./images/solarpannels.png);
+  background-size: cover;
+  margin: 0px;
+  min-width: 100%;
+  min-width: 1500px;
+}
+
+#navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  min-width: 1500px;
+}
+
+.navitem{
+  font-weight: bold;
+}
+
+.navitem:hover{
+cursor: pointer;
+}
+
+#contactagent{
+margin-left: 200px;  
+height: 60px;
+width: 200px;
+border-radius: 30px;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: #18A6DF;
+min-width: 200px;
+
+}
+
+#whoweaare{
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  background-color: white;
+  max-width: 100%;
+  margin: 0px;
+  min-width: 1500px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#ourservice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 2000px;
+  background-image: url(./images/calcbackground.png);
+  margin: 0px; 
+  min-width: 1500px;
+  ba
+  
+}
+
+#calculator{
+  min-width: 1500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+
+}
+
+#contactsunrunagent{ 
+height: 60px;
+width: 200px;
+border-radius: 30px;
+background-color: #002d3f;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: #18A6DF;
+min-width: 200px;
+
+}
+
+#homecontactbutton{
+  display: flex;
+  justify-content: center;
+  min-width: 1500px;
+}
+
